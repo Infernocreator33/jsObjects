@@ -34,11 +34,14 @@ Zayden.health -= 20;
 //Zayden equips a strength necklac - increase strength by 10
 Zayden.strength += 10;
 
-console.log(`${Zayden.name} has ${Zayden.health} health points and ${Zayden.strength} as Strength`);
+//added a new skill
+Zayden.xp += 15;
+
+console.log(`${Zayden.name} has ${Zayden.health} health points and ${Zayden.strength} as Strength with ${Zayden.xp} for XP`);
 
 function describe(character)
 {
-    console.log(`${character.name} has ${character.health} health points and ${character.strength} as strength`);
+    console.log(`${character.name} has ${character.health} health points and ${character.strength} as strength with ${character.xp} as XP`);
 }
 describe(Zayden);
 
