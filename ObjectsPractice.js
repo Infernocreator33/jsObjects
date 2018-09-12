@@ -24,7 +24,8 @@ console.log(`My pen costs $${pen.price}`);
 const Zayden = {
     name: "Zayden", 
     health: 150, 
-    strength: 25    
+    strength: 25, 
+    xp: 0    
 };
 
 console.log(`${Zayden.name} has ${Zayden.health} health points and ${Zayden.strength} as Strength`);
